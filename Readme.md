@@ -5,10 +5,11 @@ Especificação de caso de teste
 Título:
 
 Conseguir um empréstimo com limite, de 30% da sua renda mensal
+Conseguir parcela em até 10 vezes
 
 Objetivo:
 
-Inserir nome, idade e renda mensal
+Inserir nome, idade, renda mensal e quantidade de parcelas
 
 Pré-condição:
 
@@ -20,6 +21,7 @@ Inserir nome
 Inserir idade
 Inserir renda mensal
 Aceita a proposta de empréstimo
+Define o numero de parcelas da mesma
 Recusar proposta de emprétimo
 
 Resultados Esperados:

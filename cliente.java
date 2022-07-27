@@ -2,12 +2,14 @@ package emprestimo;
 
 public class cliente extends biblioteca{
     
-    private cliente(String nome, int idade, double remuneracaoMensal, double limiteEmprestimo, String aceite) {
+    private cliente(String nome, int x, int idade, double remuneracaoMensal, double limiteEmprestimo, String aceite) {
         this.nome = nome;
+        this.x = x;
         this.idade = idade;
         this.remuneracaoMensal = remuneracaoMensal;
         this.limiteEmprestimo = limiteEmprestimo;
         this.aceite = aceite;
+        
     }
     
     public String getNome() {
@@ -15,6 +17,13 @@ public class cliente extends biblioteca{
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public int getX() {
+        return x;
+    }
+    public void setX(int x) {
+        this.x = x;
     }
 
     public int getIdade() {
@@ -45,6 +54,5 @@ public class cliente extends biblioteca{
     public void setAceite(String aceite) {
         this.aceite = aceite;
     }
-
 
 }
